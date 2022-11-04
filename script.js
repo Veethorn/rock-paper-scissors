@@ -33,6 +33,9 @@ function playRound(playerSelection, computerSelection) {
       return alert("Humm, you both went with scissors: It's a tie.")
       else if (playerSelection=="scissors" && computerSelection=="paper")
       return alert("You went with scissors and the computer with paper: Congrats, you won!"); 
+
+      else if (playerSelection=="gafaralho")
+      return alert ("O GAFA GANHA SEMPRE CRL!!!")
       else return alert("Humm, I don't recognize that weapon... Please try again!")
 }
 
