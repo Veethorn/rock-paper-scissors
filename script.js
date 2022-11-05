@@ -5,7 +5,7 @@ function getComputerChoice() {
     return (computerInput);
 }
 
-for (let round = 0; round < 5; round++) {
+for (let round = 0; round < 50; round++) {
 
 	function playRound(playerSelection, computerSelection) {
         
@@ -15,37 +15,37 @@ for (let round = 0; round < 5; round++) {
         const rockTie = "Humm, you both went with rock: It's a tie."
 		      
 		      if (playerSelection=="rock" && computerSelection=="paper")
-		      return console.log(rockLose)
+		      return alert(rockLose) 
 		      else if (playerSelection=="rock" && computerSelection=="rock")
-		      return console.log(rockTie)
+		      return alert (rockTie) 
 		      else if (playerSelection=="rock" && computerSelection=="scissors")
-		      return console.log(rockWin); 
+		      return alert(rockWin) 
         
         const paperWin = "You chose paper and the computer rock: Congrats, you won!"
         const paperLose = "You chose paper and the computer scissors: Bad luck, you lost..."
         const paperTie = "Humm, you both went with paper: It's a tie."
 		
 		      if (playerSelection=="paper" && computerSelection=="scissors")
-		      return console.log(paperLose)
+		      return alert(paperLose)
 		      else if (playerSelection=="paper" && computerSelection=="paper")
-		      return console.log(paperTie)
+		      return alert(paperTie)
 		      else if (playerSelection=="paper" && computerSelection=="rock")
-		      return console.log(paperWin); 
+		      return alert(paperWin); 
         
         const scissorsWin = "You chose scissors and the computer paper: Congrats, you won!"
         const scissorsLose = "You chose scissors and the computer rock: Bad luck, you lost..."
         const scissorsTie = "Humm, you both went with scissors: It's a tie."
 		
 		      if (playerSelection=="scissors" && computerSelection=="rock")
-		      return console.log(scissorsLose)
+		      return alert(scissorsLose)
 		      else if (playerSelection=="scissors" && computerSelection=="scissors")
-		      return console.log(scissorsTie)
+		      return alert(scissorsTie)
 		      else if (playerSelection=="scissors" && computerSelection=="paper")
-		      return console.log(scissorsWin); 
+		      return alert(scissorsWin); 
 		
 		      else if (playerSelection=="gafaralho")
-		      return console.log ("O GAFA GANHA SEMPRE CRL!!!")
-		      else return console.log("Humm, I don't recognize that weapon... Please try again!")
+		      return alert("O GAFA GANHA SEMPRE CRL!!!")
+		      else return alert("Humm, I don't recognize that weapon... Please try again!")
 
 		}
 
