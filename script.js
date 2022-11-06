@@ -10,9 +10,9 @@ for (let round = 0; round < 50; round++) {
 	function playRound(playerSelection, computerSelection) {
         
 
-        const rockWin = "You chose rock and the computer scissors: Congrats, you won!"
-        const rockLose = "You chose rock and the computer paper: Bad luck, you lost..."
-        const rockTie = "Humm, you both went with rock: It's a tie."
+        const rockWin = "You won! You chose rock and the computer scissors. Congrats!"
+        const rockLose = "You lost! You chose rock and the computer paper. Bad luck..."
+        const rockTie = "Humm, it's a tie. You both went with rock. Try again."
 		      
 		      if (playerSelection=="rock" && computerSelection=="paper")
 		      return alert(rockLose) 
@@ -21,9 +21,9 @@ for (let round = 0; round < 50; round++) {
 		      else if (playerSelection=="rock" && computerSelection=="scissors")
 		      return alert(rockWin) 
         
-        const paperWin = "You chose paper and the computer rock: Congrats, you won!"
-        const paperLose = "You chose paper and the computer scissors: Bad luck, you lost..."
-        const paperTie = "Humm, you both went with paper: It's a tie."
+        const paperWin = "You won! You chose paper and the computer rock. Congrats!"
+        const paperLose = "You lost! You chose paper and the computer scissors. Bad luck..."
+        const paperTie = "Humm, it's a tie. You both went with paper. Try again."
 		
 		      if (playerSelection=="paper" && computerSelection=="scissors")
 		      return alert(paperLose)
@@ -32,9 +32,9 @@ for (let round = 0; round < 50; round++) {
 		      else if (playerSelection=="paper" && computerSelection=="rock")
 		      return alert(paperWin); 
         
-        const scissorsWin = "You chose scissors and the computer paper: Congrats, you won!"
-        const scissorsLose = "You chose scissors and the computer rock: Bad luck, you lost..."
-        const scissorsTie = "Humm, you both went with scissors: It's a tie."
+        const scissorsWin = "You won! You chose scissors and the computer paper. Congrats!"
+        const scissorsLose = "You lost! You chose scissors and the computer rock. Bad luck..."
+        const scissorsTie = "Humm, it's a tie. You both went with scissors. Try again."
 		
 		      if (playerSelection=="scissors" && computerSelection=="rock")
 		      return alert(scissorsLose)
